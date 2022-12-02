@@ -1,9 +1,12 @@
 {
-  "name": "2nddec",
+  "name": "@shahid-farooq/calculator",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI Calculator",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "calculator": "lib/index.js"
+  },
   "scripts": {
     "start": "tsc && node lib",
     "build": "tsc",
@@ -12,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shahid Farooq",
   "license": "ISC",
   "devDependencies": {
     "@types/figlet": "^1.5.5",
@@ -26,5 +29,16 @@
   "dependencies": {
     "figlet": "^1.5.2",
     "inquirer": "^9.1.4"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleepyturtle7711/calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sleepyturtle7711/calculator/issues"
+  },
+  "homepage": "https://github.com/sleepyturtle7711/calculator#readme"
 }
